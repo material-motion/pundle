@@ -1,0 +1,35 @@
+{
+  "name": "pundle-dev",
+  "version": "2.0.0-beta12",
+  "description": "Dev module for Pundle",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "apm test",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/motion/pundle.git"
+  },
+  "author": "steelbrain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/motion/pundle/issues"
+  },
+  "homepage": "https://github.com/motion/pundle#readme",
+  "dependencies": {
+    "debug": "^2.4.4",
+    "express": "^4.14.0",
+    "lodash.difference": "^4.5.0",
+    "lodash.uniq": "^4.5.0",
+    "pundle": "^2.0.0-beta12",
+    "pundle-api": "^2.0.0-beta12",
+    "pundle-reporter-cli": "^2.0.0-beta12",
+    "sb-event-kit": "^3.0.0",
+    "send": "^0.14.1",
+    "ws": "^1.1.1"
+  },
+  "optionalDependencies": {
+    "uws": "^0.12.0"
+  }
+}
